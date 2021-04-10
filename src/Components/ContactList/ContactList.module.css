@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.button {
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin-left: 10px;
+
+  font-size: 15px;
+  line-height: 1.2;
+  color: #000;
+  background-color: #d1cfcf;
+  cursor: pointer;
+}
+
+/* .button:not(:last-child) {
+  margin-right: 10px;
+} */
+
+.button:hover {
+  background-color: #0921ad;
+  color: #fff;
+}

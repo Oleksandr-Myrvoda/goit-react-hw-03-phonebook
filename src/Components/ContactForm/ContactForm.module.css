@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formLabel {
+  margin-top: 10px;
+}
+
+.button {
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 10px;
+
+  font-size: 15px;
+  line-height: 1.2;
+  color: #000;
+  background-color: #d1cfcf;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0921ad;
+  color: #fff;
+}
